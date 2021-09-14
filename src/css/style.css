@@ -1,0 +1,137 @@
+/* Basic Styles*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #386b58;
+    color: #ffff;
+    height: 100%;
+    font-size: 16px;
+    font-family: "Merriweather", serif;
+}
+
+/*Header Section*/
+.navbar {
+    background-color: #386b58;
+}
+
+nav img {
+    width: 100px;
+}
+
+.dropdown-menu,
+.dropdown-item {
+    background-color: #386b58;
+    color: white;
+}
+
+/* Hero Section*/
+
+.hero {
+    margin-top: 93px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero {
+    background: url(../../img/katherine-chase-4MMK78S7eyk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(85%);
+}
+
+.hero-button {
+    background-color: #ffda85;
+    color: black;
+    width: 35%;
+}
+
+.hero-button:hover {
+    background-color: #386b58;
+    color: white;
+}
+
+/* About Section*/
+
+.about img {
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+/* Services Section*/
+.services {
+    background-color: #f0e5e7;
+    color: #0e0410;
+}
+
+#services img {
+    height: 50%;
+    border-radius: 25px;
+}
+
+#services .card {
+    border-radius: 20px;
+    border: 4px solid #386b58;
+}
+
+.learn-more-btn {
+    background-color: #ffda85;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.learn-more-btn:hover {
+    background-color: #386b58;
+    color: white;
+}
+
+/* testimonials Section*/
+.testimonials {
+    background-color: #ffda85;
+    color: #0e0410;
+}
+
+/* Footer Section*/
+
+.list-group-item {
+    color: #ffff;
+}
+.list-group-item-action:focus,
+.list-group-item-action:hover {
+    color: #ffda85;
+}
+
+.contact-button {
+    background-color: #ffda85;
+    font-weight: 400;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.contact-button:hover {
+    background-color: #386b58;
+    color: white;
+    border: 2px solid #ffff;
+}
+
+.bi:hover {
+    color: #ffda85;
+}
+
+/* Services Page*/
+#services-page {
+    padding-top: 93px;
+    background-color: #f0e5e7;
+    color: #0e0410;
+    background: url(../../img/brooke-lark-08bOYnH_r_E-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(90%);
+}
