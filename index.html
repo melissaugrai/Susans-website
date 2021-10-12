@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
     <!--My Stylesheets/Source Files -->
@@ -19,20 +19,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
-    <title>Susan Holistic Nutrition Counsellor</title>
+    <title>Susan's Optimum Health Goals</title>
 </head>
 
 
 <body>
     <header>
         <!--Nav bar-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-0">
-            <div class="container p-0">
-                <a class="navbar-brand" href="#">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-4 py-sm-2">
+            <div class="container">
+                <a class="navbar-brand me-1" href="#">
                     <img class="img-fluid" src="./img/SusanLogo.png" alt="Susan's Logo">
-                    Susan's Holistic Nutrition Counsellor
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <a class="navbar-brand text-wrap company-name me-1 " href="#">Susan's Optimum Health Goals</a>
+                <button class="navbar-toggler px-1" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -41,27 +41,19 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item ">
-                            <a class="nav-link text-light" href="./index.html">Home</a>
+                            <a id="hoverLink" class="nav-link text-light" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#about">About</a>
+                            <a id="hoverLink" class="nav-link text-light" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#testimonials">Testimonials</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light " href="#" id="navbarDropdownMenuLink"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Services
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#services">Meal Plans</a></li>
-                                <li><a class="dropdown-item" href="#services">Coaching</a></li>
-                                <li><a class="dropdown-item visually-hidden" href="#services">Recipes</a></li>
-                            </ul>
+                            <a id="hoverLink" class="nav-link text-light" href="#testimonials">Testimonials</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light " href="#contact">Contact</a>
+                            <a id="hoverLink" class="nav-link text-light" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="hoverLink" class="nav-link text-light " href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -71,22 +63,16 @@
     </header>
 
     <!--Hero Area-->
-    <section class="row hero text-dark justify-content-center align-items-center">
-        <div class=" hero-content w-50 align-items-center flex-column">
-            <h1 class="hero-title fw-bold">
-                Registered Holistic Nutrition Counsellor & Weight Loss Coaching
+    <section class="d-flex hero text-dark justify-content-center align-items-center">
+        <div class=" hero-content d-flex col-11 col-sm-10 col-lg-8 align-items-center flex-column">
+            <h1 class="hero-title fw-bold text-center">
+                Overwhelmed & frustrated trying to achieve your weight loss goals?
             </h1>
-            <h2 class="hero-subtitle ">
-                Susan's Health Help
-            </h2>
-            <p class="hero-description ">Say good-bye to the overwhelm and the frustration of not
-                knowing what to eat for weight loss and start
-                feeling confident in your eating decisions!</p>
 
-            <button type="button" class="btn hero-button fs-5 rounded-pill ">
-                Contact Me
-            </button>
-
+            <p class="hero-description text-center ">
+                With custom meal plans and personal coaching together, you will gain the confidence to make healthy
+                choices on the journey to becoming a healthier you. </p>
+            <a class="btn hero-button fs-5 rounded-pill" href="#contact">Contact Me</a>
         </div>
 
     </section>
@@ -95,14 +81,14 @@
     <section id="about" class="about my-5">
 
         <div class="container p-0">
-            <div class="row justify-content-center align-items-center">
+            <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
 
-                <div class="col-5">
-                    <img class="img-fluid w-75 p-4" src="./img/michael-dam-mEZ3PoFGs_k-unsplash.jpg"
+                <div class="col-11 col-sm-8 col-md-6">
+                    <img class="img-fluid p-4" src="./img/michael-dam-mEZ3PoFGs_k-unsplash.jpg"
                         alt="Susan's Picture">
                 </div>
 
-                <div class="about-text col-5">
+                <div class="about-text col-lg-5">
                     <p class="about-text word-wrap fs-5">
                         <span class="h3">Hi I’m Susan</span>
                         <br>
@@ -114,8 +100,8 @@
                         <br>
                         <br>
                         This is how I can help you, by simplifying your efforts and
-                        create a plan so you can make confident food decisions and reach your weight loss goals. We are
-                        all not made out of the same cookie cutter ,so this is why personal nutrition programs work..
+                        create a plan so you can make confident food decisions and reach your weight loss goals. We
+                        all are not made out of the same cookie cutter, so this is why personal nutrition programs work.
                     </p>
                 </div>
             </div>
@@ -125,8 +111,8 @@
     <!--Services-->
     <section id="services" class="services py-5 ">
 
-        <div class="card-group container p-0">
-            <div class="row justify-content-around ">
+        <div class="card-group container  p-0">
+            <div class="row justify-content-around flex-column flex-lg-row ">
                 <!--Card 1 MEALS-->
                 <div class="card col-3 ">
 
@@ -231,7 +217,7 @@
     <!--Footer-->
     <footer id="contact">
         <div class="container mt-5 p-0">
-            <div class="row justify-content-between align-items-start ">
+            <div class="row justify-content-between align-items-start flex-column flex-lg-row ">
 
                 <!--links-->
                 <div class="list-group col-3 fs-5 order-1 ">
@@ -243,7 +229,7 @@
                     <a href="./services.html"
                         class="list-group-item list-group-item-action bg-transparent border-0">Coaching</a>
                     <a href="./services.html"
-                        class="list-group-item list-group-item-action bg-transparent border-0 mb-2">Recipes</a>
+                        class="list-group-item list-group-item-action bg-transparent border-0 mb-2 visually-hidden">Recipes</a>
                     <!--Social Links-->
                     <div class="social-links  d-flex justify-content-between border-bottom mb-2">
                         <a class="text-reset" href="#"> <i class="bi bi-envelope fs-3"></i></a>
@@ -291,8 +277,11 @@
 
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
     </script>
 
 </body>
