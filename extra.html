@@ -1,0 +1,49 @@
+<!--contact Form-->
+<div class="contact-form col-11 col-sm-9 col-md-6 col-lg-5 d-flex flex-column align-items-stretch ">
+
+    <h2 class="border-bottom border-light pb-2">Contact Me Today</h2>
+
+    <div class="mb-2">
+        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    </div>
+    <div class="mb-2">
+        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+    </div>
+
+    <div class="mb-2 ">
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+    </div>
+
+    <div class="mb-2">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+            placeholder="A little about yourself"></textarea>
+    </div>
+
+    <button type="submit" class="btn contact-button w-50 fs-5 align-self-end rounded-pill">Contact
+        Me</button>
+</div>
+
+<!--Added names-->
+<form action="contact.php" method="post">
+    <div class="mb-2">
+        <input type="text" id="firstName" name="first_name" class="form-control" placeholder="First name"
+            aria-label="First name" pattern=[A-Z\sa-z]{3,20} required>
+    </div>
+    <div class="mb-2">
+        <input type="text" id="lastName" class="form-control" name="last_name" placeholder="Last name"
+            aria-label="Last name" pattern=[A-Z\sa-z]{3,20} required>
+    </div>
+
+    <div class="mb-2 ">
+        <input type="email" id="email" class="form-control" name="visitors_email" placeholder="Email Address" required>
+    </div>
+
+    <div class="mb-2">
+        <textarea class="form-control" id="message" name="visitors_message" rows="3"
+            placeholder="A little about yourself"></textarea>
+    </div>
+
+    <button type="submit" class="btn contact-button w-50 fs-5 align-self-end rounded-pill">Contact
+        Me</button>
+
+</form>
