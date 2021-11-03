@@ -182,7 +182,7 @@ nav img {
     }
 
     .hero-title {
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .test-card {
@@ -195,12 +195,13 @@ nav img {
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    
+.hero-title {
+        font-size: 28px;
+    }
 
     .hero-description {
         font-size: 16px;
     }
-
 
     #services img {
         height: 50%;
@@ -209,11 +210,13 @@ nav img {
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+    .hero-title {
+        font-size: 30px;
+    }
 
     .hero-description {
         font-size: 18px;
     }
-
 
     .about-text {
         font-size: 16px;
@@ -228,8 +231,6 @@ nav img {
 
 /*X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-    
-
     .about-text {
         font-size: 18px;
     }
@@ -237,10 +238,7 @@ nav img {
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
-     .hero-title {
-        font-size: 32px;
-    }
-
+    
     .about-text {
         font-size: 20px;
     }
