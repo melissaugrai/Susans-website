@@ -175,67 +175,73 @@
 
 
     <!--Footer-->
-    <footer id="contact">
-        <div class="container mt-5">
-            <div class="row justify-content-between align-items-start ">
+        <footer id="contact" class="my-5">
+        <div class="container ">
+            <div
+                class="row justify-content-md-between align-items-center flex-column flex-md-row align-items-md-stretch ">
+
+
+                <!--contact Form-->
+                <div
+                    class="contact-form col-11 col-sm-9 col-md-6 col-lg-5 d-flex flex-column align-items-stretch mb-5 mb-sm-0">
+
+                    <h2 class="border-bottom border-light pb-2">Contact Me Today</h2>
+
+
+                    <form id="contact-form" action="contact.php" method="post">
+                        <div class="mb-2">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Full Name"
+                                aria-label="Full Name" pattern=[A-Z\sa-z]{3,20} required>
+                        </div>
+
+                        <div class="mb-2 ">
+                            <input type="email" id="email" class="form-control" name="email" placeholder="Email Address"
+                                required>
+                        </div>
+
+                        <div class="mb-2">
+                            <textarea class="form-control" id="message" name="message" rows="3"
+                                placeholder="How many I help?"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn contact-button w-50 fs-5 align-self-end rounded-pill" value="Send Message">Contact
+                            Me</button>
+
+                    </form>
+                </div>
 
                 <!--links-->
-                <div class="list-group col-3 fs-5 order-1 ">
+                <div class="col-11 col-sm-9 col-md-5 col-lg-4 d-flex flex-column  ">
                     <h2 class="border-bottom border-light pb-2">Links</h2>
-                    <a href="/index.html" class="list-group-item list-group-item-action bg-transparent border-0"> About
-                    </a>
-                    <a href="#personalized-plan"
-                        class="list-group-item list-group-item-action bg-transparent border-0">Personalized Plans</a>
-                    <a href="#coaching-session"
-                        class="list-group-item list-group-item-action bg-transparent border-0">Coaching Sessions</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-transparent border-0 mb-2 visually-hidden">Recipes</a>
+                    <div
+                        class="list-group text-center text-md-start fs-5 flex-row flex-md-column flex-grow-1 flex-shrink-1 ">
+                        <a href="#about" class="list-group-item list-group-item-action bg-transparent border-0"> About
+                        </a>
+                        <a href="./services.html"
+                            class="list-group-item list-group-item-action bg-transparent border-0">Meal
+                            Plans</a>
+                        <a href="./services.html"
+                            class="list-group-item list-group-item-action bg-transparent border-0">Coaching</a>
+                        <a href="./services.html"
+                            class="list-group-item list-group-item-action bg-transparent border-0 mb-2 visually-hidden">Recipes</a>
+                    </div>
                     <!--Social Links-->
-                    <div class="social-links  d-flex justify-content-between border-bottom mb-2">
-                        <a class="text-reset" href="#"> <i class="bi bi-envelope fs-3"></i></a>
+                    <div class="social-links d-flex justify-content-between border-bottom mb-2">
+                        <a class="text-reset" href="#"><i class="bi bi-envelope fs-3"></i></a>
                         <a class="text-reset" href="#"><i class="bi bi-facebook fs-3 "></i></a>
                         <a class="text-reset" href="#"><i class="bi bi-linkedin fs-3 "></i></a>
                         <a class="text-reset" href="#"><i class="bi bi-twitter fs-3 "></i></a>
                         <a class="text-reset" href="#"> <i class="bi bi-instagram fs-3"></i></a>
                         <a class="text-reset" href="#"><i class="bi bi-telephone fs-3"></i></a>
                     </div>
-
-                </div>
-                <!--contact Form-->
-                <div class="contact-form col-5 d-flex flex-column align-items-stretch order-0">
-
-                    <h2 class="border-bottom border-light pb-2">Contact Me Today</h2>
-
-                    <div class="mb-2">
-                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                    </div>
-                    <div class="mb-2">
-                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                    </div>
-
-                    <div class="mb-2 ">
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Email Address">
-                    </div>
-
-                    <div class="mb-2">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                            placeholder="A little about yourself"></textarea>
-                    </div>
-
-                    <button type="submit" class="btn contact-button w-50 fs-5 align-self-end rounded-pill">Contact
-                        Me</button>
                 </div>
             </div>
 
-
-
-            <div class="copy-right  text-end">
-                <p>&copy; 2021 Melissa Ugrai</p>
-            </div>
         </div>
-
     </footer>
-
+    <div class="copy-right text-center ">
+        <p>&copy; 2021 Melissa Ugrai</p>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
