@@ -155,6 +155,10 @@ nav img {
     color: #ffda85;
 }
 
+.health_coach_badge {
+    width: 40%;
+}
+
 /* Services Page*/
 #services-page {
     padding-top: 93px;
@@ -194,12 +198,15 @@ nav img {
         max-height: 350px;
     }
 
+    .health_coach_badge {
+        width: 25%;
+    }
 
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-.hero-title {
+    .hero-title {
         font-size: 28px;
     }
 
@@ -210,6 +217,11 @@ nav img {
     #services img {
         height: 50%;
     }
+
+    .health_coach_badge {
+        width: 20%;
+    }
+
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -230,9 +242,13 @@ nav img {
         height: 250px;
         max-height: 350px;
     }
+
     .fontAdj {
-    font-size: 16px;
-}
+        font-size: 16px;
+    }
+    .health_coach_badge {
+        width: 15%;
+    }
 
 }
 
@@ -245,7 +261,7 @@ nav img {
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
-    
+
     .about-text {
         font-size: 20px;
     }

@@ -98,10 +98,11 @@
 
                 <div class="about-text col-11 col-lg-6 col-xl-7">
                     <p class="about-text word-wrap">
-                        <span class="h2">Hello I’m Susan</span>
+                        <span class="h2">Hello, I’m Susan</span>
                         <br>
                         <br>
-                        I am a Registered Holistic Nutrition Counsellor, who has seen the success of how food and
+                        I am a Registered Holistic Nutrition Counsellor that specializes in anxiety, who has seen the
+                        success of how food and
                         personal diet can transform the way you feel and function in life. Unfortunately, there is so
                         much overwhelming information, many fad diets and lots of misleading information when it
                         comes to health and nutrition.
@@ -112,6 +113,7 @@
                         improve your over all health. We
                         all are not made out of the same cookie cutter, so this is why personal nutrition programs work.
                     </p>
+
                 </div>
             </div>
         </div>
@@ -187,7 +189,8 @@
                             <h4>Melissa U</h4>
                             <p>Best life coach, together we have lost 30lbs and has help me keep it off. Susan is the
                                 only person who has been able to achieve that in my life. By teaching me what I should
-                                eat with my many health conditions, I have cut down the inflammation and pain levels. </p>
+                                eat with my many health conditions, I have cut down the inflammation and pain levels.
+                            </p>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -227,40 +230,10 @@
     <footer id="contact" class="my-5">
         <div class="container ">
             <div
-                class="row justify-content-md-between align-items-center flex-column flex-md-row align-items-md-stretch ">
-
-
-                <!--contact Form-->
-                <div
-                    class="contact-form col-11 col-sm-9 col-md-6 col-lg-5 d-flex flex-column align-items-stretch mb-5 mb-sm-0">
-
-                    <h2 class="border-bottom border-light pb-2">Contact Me Today</h2>
-
-
-                    <form id="contact-form" action="contact.php" method="post">
-                        <div class="mb-2">
-                            <input type="text" id="name" name="name" class="form-control" placeholder="Full Name"
-                                aria-label="Full Name" pattern=[A-Z\sa-z]{3,20} required>
-                        </div>
-
-                        <div class="mb-2 ">
-                            <input type="email" id="email" class="form-control" name="email" placeholder="Email Address"
-                                required>
-                        </div>
-
-                        <div class="mb-2">
-                            <textarea class="form-control" id="message" name="message" rows="3"
-                                placeholder="How many I help?"></textarea>
-                        </div>
-
-                        <button type="submit" class="btn contact-button w-50 fs-5 align-self-end rounded-pill" value="Send Message">Contact
-                            Me</button>
-
-                    </form>
-                </div>
+                class="d-flex justify-content-md-between align-items-center flex-column flex-md-row align-items-md-stretch ">
 
                 <!--links-->
-                <div class="col-11 col-sm-9 col-md-5 col-lg-4 d-flex flex-column  ">
+                <div class="col-11 col-sm-9 col-md-3 col-lg-3 d-flex flex-column mb-5 ">
                     <h2 class="border-bottom border-light pb-2">Links</h2>
                     <div
                         class="list-group text-center text-md-start fs-5 flex-row flex-md-column flex-grow-1 flex-shrink-1 ">
@@ -284,14 +257,51 @@
                         <a class="text-reset" href="#"><i class="bi bi-telephone fs-3"></i></a>
                     </div>
                 </div>
+
+                <!--contact Form-->
+                <div
+                    class="contact-form col-11 col-sm-9 col-md-5 col-lg-4 d-flex flex-column align-items-stretch mb-5 ">
+                    <h2 class="border-bottom border-light pb-2">Contact Me Today</h2>
+
+                    <form id="contact-form" action="contact.php" method="post">
+                        <div class="mb-2">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Full Name"
+                                aria-label="Full Name" pattern=[A-Z\sa-z]{3,20} required>
+                        </div>
+
+                        <div class="mb-2 ">
+                            <input type="email" id="email" class="form-control" name="email" placeholder="Email Address"
+                                required>
+                        </div>
+
+                        <div class="mb-2">
+                            <textarea class="form-control" id="message" name="message" rows="3"
+                                placeholder="How many I help?"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn contact-button w-50 fs-5 rounded-pill"
+                            value="Send Message">Contact Me</button>
+                    </form>
+                </div>
+
+                <!--Badge-->
+                <div class="health_coach_badge mb-5 mb-md-0  me-lg-5 align-self-center">
+                    <a href="https://www.healthcoachalliance.ca/">
+
+                        <img class="img-fluid" src="./img/Badge.png" alt="Health Coach Alliance Badge 2021/22">
+                    </a>
+                </div>
+
             </div>
 
+            <!--CopyRight-->
+            <div class="copy-right text-center ">
+                <p>Copyright &copy; <script>
+                        document.write(new Date().getFullYear())
+                    </script> Melissa Ugrai All Rights Reserved</p>
+            </div>
         </div>
     </footer>
-    <div class="copy-right text-center ">
-        <p>&copy; 2021 Melissa Ugrai</p>
-    </div>
-
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
