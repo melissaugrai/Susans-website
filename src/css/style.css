@@ -168,7 +168,13 @@ nav img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    filter: brightness(90%);
+    filter: brightness(85%);
+}
+
+.thanks_letter {
+    background-color: #ffda85;
+    color: black;
+    
 }
 
 /* Media Queries*/
