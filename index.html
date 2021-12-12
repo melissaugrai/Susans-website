@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -285,27 +286,24 @@
 
                     <form id="contact-form" action="contact.php" method="post">
                         <div class="mb-2">
-                            <input type="text" id="name" name="name" class="form-control" placeholder="Full Name"
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Full Name" required
                                 aria-label="Full Name">
-                            <span class="error"><?php echo $nameError;?></span>
                         </div>
 
                         <div class="mb-2 ">
-                            <input type="email" id="email" class="form-control" name="email" placeholder="Email Address"
-                                >
-                            <span class="error"><?php echo $emailError;?></span>
+                            <input type="email" id="email" class="form-control" name="email" required
+                                placeholder="Email Address">
                         </div>
 
                         <div class="mb-2">
                             <textarea class="form-control" id="message" name="message" rows="3"
                                 placeholder="How many I help?"></textarea>
-                            <span class="error"><?php echo $messageError;?></span>
                         </div>
 
                         <button type="submit" class="btn contact-button w-50 fs-5 rounded-pill"
                             value="Send Message">Contact Me</button>
-                        <span class="success"><?php echo $successMessage;?></span>
                     </form>
+                   
                 </div>
 
 
