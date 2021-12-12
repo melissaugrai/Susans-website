@@ -69,7 +69,7 @@ nav img {
 
 /* About Section*/
 
-.about img {
+#about img {
     border: 2px solid white;
     border-radius: 25px;
 }
@@ -160,26 +160,32 @@ nav img {
 }
 
 /* Services Page*/
+
 #services-page {
-    padding-top: 93px;
-    background-color: #f0e5e7;
+    padding-top: 210px;
+    background-color: #f3f7f8;
     color: #0e0410;
-    background: url(../../img/brooke-lark-08bOYnH_r_E-unsplash.jpg);
+    background-image: url(../../img/Rotated-Service-background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-size: contain;
     filter: brightness(85%);
 }
 
 .thanks_letter {
     background-color: #ffda85;
     color: black;
-    
+
 }
 
 /* Media Queries*/
 
 /*Mobile*/
+
+@media (min-width: 400px) {
+    #services-page {
+        padding-top: 270px;
+    }
+}
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -208,6 +214,10 @@ nav img {
         width: 25%;
     }
 
+    #services-page {
+        padding-top: 370px;
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -226,6 +236,10 @@ nav img {
 
     .health_coach_badge {
         width: 20%;
+    }
+
+    #services-page {
+        padding-top: 470px;
     }
 
 }
@@ -252,9 +266,20 @@ nav img {
     .fontAdj {
         font-size: 16px;
     }
+
     .health_coach_badge {
         width: 15%;
     }
+
+    #services-page {
+        padding-top: 93px;
+        background: url(../../img/brooke-lark-08bOYnH_r_E-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        filter: brightness(85%);
+    }
+
 
 }
 
