@@ -8,7 +8,7 @@ if (isset($_POST['email']) && $_POST['email'] !="") {
         $userEmail = $_POST['email'];
         $userMessage = $_POST['message'];
              
-        $to = "mugrai@gmail.com";
+        $to = "susan@susanoptimumhealthgoals.com";
         $header = "New Form Submitted";
         $body = "";
 

@@ -159,6 +159,10 @@ nav img {
     width: 40%;
 }
 
+.disclaimer p {
+    font-size: 13px;
+    text-align: justify
+}
 /* Services Page*/
 
 #services-page {
@@ -269,6 +273,10 @@ nav img {
 
     .health_coach_badge {
         width: 15%;
+    }
+
+    .disclaimer p {
+    font-size: 14px;
     }
 
     #services-page {
