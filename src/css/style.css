@@ -49,7 +49,7 @@ nav img {
 }
 
 .hero-title {
-    font-size: 23px;
+    font-size: 26px;
 }
 
 .hero-description {
@@ -78,6 +78,10 @@ nav img {
 .services {
     background-color: #f0e5e7;
     color: #0e0410;
+}
+
+.smaller-text {
+    font-size: 14px;
 }
 
 #services img {
@@ -163,6 +167,7 @@ nav img {
     font-size: 13px;
     text-align: justify
 }
+
 /* Services Page*/
 
 #services-page {
@@ -227,7 +232,7 @@ nav img {
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
     .hero-title {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     .hero-description {
@@ -251,7 +256,7 @@ nav img {
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
     .hero-title {
-        font-size: 30px;
+        font-size: 32px;
     }
 
     .hero-description {
@@ -259,6 +264,10 @@ nav img {
     }
 
     .about-text {
+        font-size: 16px;
+    }
+
+    .smaller-text {
         font-size: 16px;
     }
 
@@ -276,7 +285,7 @@ nav img {
     }
 
     .disclaimer p {
-    font-size: 14px;
+        font-size: 14px;
     }
 
     #services-page {
