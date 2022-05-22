@@ -41,7 +41,7 @@ nav img {
 }
 
 .hero {
-    background: url(../../img/katherine-chase-4MMK78S7eyk-unsplash.jpg);
+    background: url(../../img/katherine-chase-4MMK78S7eyk-unsplash.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -126,10 +126,6 @@ nav img {
     max-height: 350px;
 }
 
-.fontAdj {
-    font-size: 13px;
-}
-
 
 /* Footer Section*/
 
@@ -174,7 +170,7 @@ nav img {
     padding-top: 210px;
     background-color: #f3f7f8;
     color: #0e0410;
-    background-image: url(../../img/Rotated-Service-background.jpg);
+    background-image: url(../../img/Rotated-Service-background.webp);
     background-repeat: no-repeat;
     background-size: contain;
     filter: brightness(85%);
@@ -290,7 +286,7 @@ nav img {
 
     #services-page {
         padding-top: 93px;
-        background: url(../../img/brooke-lark-08bOYnH_r_E-unsplash.jpg);
+        background: url(../../img/brooke-lark-08bOYnH_r_E-unsplash.webp);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
