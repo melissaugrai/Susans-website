@@ -32,7 +32,9 @@ nav img {
 .text-light:hover {
     color: rgb(255, 218, 133) !important;
 }
-
+li .text-dark:hover {
+    color: rgb(255, 255, 255) !important;
+}
 /* Hero Section*/
 
 .hero {
