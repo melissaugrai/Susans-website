@@ -2,189 +2,190 @@
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #386b58;
-    color: #ffff;
-    height: 100%;
-    font-size: 16px;
-    font-family: "Merriweather", serif;
-    padding-top: 92px;
+  background-color: #386b58;
+  color: #ffff;
+  height: 100%;
+  font-size: 16px;
+  font-family: "Merriweather", serif;
+  padding-top: 92px;
 }
 
 /*Header Section*/
 .navbar {
-    background-color: #386b58;
+  background-color: #386b58;
 }
 
 nav img {
-    width: 40px;
+  width: 40px;
 }
 
 .company-name {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .text-light:hover {
-    color: rgb(255, 218, 133) !important;
+  color: rgb(255, 218, 133) !important;
 }
 
 li .text-dark:hover {
-    color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 /* Hero Section*/
 
 .hero {
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 .hero {
-    background: url(../../img/katherine-chase-4MMK78S7eyk-unsplash.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: brightness(85%);
+  background: url(../../img/katherine-chase-4MMK78S7eyk-unsplash.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(85%);
 }
 
 .hero-title {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 .hero-description {
-    font-size: 14px;
+  font-size: 14px;
 }
 
-
 .hero-button {
-    background-color: #ffda85;
-    color: black;
+  background-color: #ffda85;
+  color: black;
 }
 
 .hero-button:hover {
-    background-color: #386b58;
-    color: white;
+  background-color: #386b58;
+  color: white;
 }
 
 /* About Section*/
 
 #about img {
-    border: 2px solid white;
-    border-radius: 25px;
+  border: 2px solid white;
+  border-radius: 25px;
 }
 
 /* Services Section*/
 .services {
-    background-color: #f0e5e7;
-    color: #0e0410;
+  background-color: #f0e5e7;
+  color: #0e0410;
 }
 
 .smaller-text {
-    font-size: 14px;
+  font-size: 14px;
+}
+
+.warning {
+  font-size: 14px;
 }
 
 #services img {
-    height: 100%;
-    border-radius: 25px;
+  height: 100%;
+  border-radius: 25px;
 }
 
 #services .card {
-    border-radius: 20px;
-    border: 4px solid #386b58;
+  border-radius: 20px;
+  border: 4px solid #386b58;
 }
 
 .learn-more-btn {
-    background-color: #ffda85;
-    font-weight: 400;
-    cursor: pointer;
+  background-color: #ffda85;
+  font-weight: 400;
+  cursor: pointer;
 }
 
 .learn-more-btn:hover {
-    background-color: #386b58;
-    color: white;
-    border: 2px solid #ffff;
+  background-color: #386b58;
+  color: white;
+  border: 2px solid #ffff;
 }
 
 /* testimonials Section*/
 .testimonials {
-    background-color: #ffda85;
-    color: #0e0410;
+  background-color: #ffda85;
+  color: #0e0410;
 }
 
 #carouselIndicators {
-    bottom: -50px;
+  bottom: -50px;
 }
 
 .carousel-indicators button {
-    width: 10px !important;
-    height: 10px !important;
-    border-radius: 50%;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
 }
 
 .test-card {
-    height: 350px;
-    max-height: 350px;
+  height: 350px;
+  max-height: 350px;
 }
-
 
 /* Footer Section*/
 
 .list-group-item {
-    color: #ffff;
+  color: #ffff;
 }
 
 .list-group-item-action:focus,
 .list-group-item-action:hover {
-    color: #ffda85;
+  color: #ffda85;
 }
 
 .contact-button {
-    background-color: #ffda85;
-    font-weight: 400;
-    cursor: pointer;
-    border: 2px solid transparent;
+  background-color: #ffda85;
+  font-weight: 400;
+  cursor: pointer;
+  border: 2px solid transparent;
 }
 
 .contact-button:hover {
-    background-color: #386b58;
-    color: white;
-    border: 2px solid #ffff;
+  background-color: #386b58;
+  color: white;
+  border: 2px solid #ffff;
 }
 
 .bi:hover {
-    color: #ffda85;
+  color: #ffda85;
 }
 
 .health_coach_badge {
-    width: 40%;
+  width: 40%;
 }
 
 .disclaimer p {
-    font-size: 13px;
-    text-align: justify
+  font-size: 13px;
+  text-align: justify;
 }
 
 /* Services Page*/
 
 #services-page {
-    padding-top: 210px;
-    background-color: #f3f7f8;
-    color: #0e0410;
-    background-image: url(../../img/Rotated-Service-background.webp);
-    background-repeat: no-repeat;
-    background-size: contain;
-    filter: brightness(85%);
+  padding-top: 210px;
+  background-color: #f3f7f8;
+  color: #0e0410;
+  background-image: url(../../img/Rotated-Service-background.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: brightness(85%);
 }
 
 .thanks_letter {
-    background-color: #ffda85;
-    color: black;
-
+  background-color: #ffda85;
+  color: black;
 }
 
 /* Media Queries*/
@@ -192,126 +193,121 @@ li .text-dark:hover {
 /*Mobile*/
 
 @media (min-width: 400px) {
-    #services-page {
-        padding-top: 270px;
-    }
+  #services-page {
+    padding-top: 270px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-    nav img {
-        width: 80px;
-    }
+  nav img {
+    width: 80px;
+  }
 
-    .company-name {
-        font-size: 20px;
-    }
+  .company-name {
+    font-size: 20px;
+  }
 
-    .hero {
-        height: 100vh;
-    }
+  .hero {
+    height: 100vh;
+  }
 
-    .hero-title {
-        font-size: 26px;
-    }
+  .hero-title {
+    font-size: 26px;
+  }
 
-    .test-card {
-        height: 300px;
-        max-height: 350px;
-    }
+  .test-card {
+    height: 300px;
+    max-height: 350px;
+  }
 
-    .health_coach_badge {
-        width: 25%;
-    }
+  .health_coach_badge {
+    width: 25%;
+  }
 
-    #services-page {
-        padding-top: 370px;
-    }
-
+  #services-page {
+    padding-top: 370px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    .hero-title {
-        font-size: 30px;
-    }
+  .hero-title {
+    font-size: 30px;
+  }
 
-    .hero-description {
-        font-size: 16px;
-    }
+  .hero-description {
+    font-size: 16px;
+  }
 
-    #services img {
-        height: 50%;
-    }
+  #services img {
+    height: 50%;
+  }
 
-    .health_coach_badge {
-        width: 20%;
-    }
+  .health_coach_badge {
+    width: 20%;
+  }
 
-    #services-page {
-        padding-top: 470px;
-    }
-
+  #services-page {
+    padding-top: 470px;
+  }
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-    .hero-title {
-        font-size: 32px;
-    }
+  .hero-title {
+    font-size: 32px;
+  }
 
-    .hero-description {
-        font-size: 18px;
-    }
+  .hero-description {
+    font-size: 18px;
+  }
 
-    .about-text {
-        font-size: 16px;
-    }
+  .about-text {
+    font-size: 16px;
+  }
 
-    .smaller-text {
-        font-size: 16px;
-    }
+  .smaller-text {
+    font-size: 16px;
+  }
 
-    .test-card {
-        height: 250px;
-        max-height: 350px;
-    }
+  .test-card {
+    height: 250px;
+    max-height: 350px;
+  }
 
-    .fontAdj {
-        font-size: 16px;
-    }
+  .fontAdj {
+    font-size: 16px;
+  }
 
-    .health_coach_badge {
-        width: 15%;
-    }
+  .health_coach_badge {
+    width: 15%;
+  }
 
-    .disclaimer p {
-        font-size: 14px;
-    }
+  .disclaimer p {
+    font-size: 14px;
+  }
 
-    #services-page {
-        padding-top: 93px;
-        background: url(../../img/brooke-lark-08bOYnH_r_E-unsplash.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        filter: brightness(85%);
-    }
-
-
+  #services-page {
+    padding-top: 93px;
+    background: url(../../img/brooke-lark-08bOYnH_r_E-unsplash.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(85%);
+  }
 }
 
 /*X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-    .about-text {
-        font-size: 18px;
-    }
+  .about-text {
+    font-size: 18px;
+  }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
-
-    .about-text {
-        font-size: 20px;
-    }
+  .about-text {
+    font-size: 20px;
+  }
 }
